@@ -19,4 +19,9 @@
             Console.WriteLine("Adquira o plano Ultra");
         }
     }
+
+    public void ExibirNomeArtista()
+    {
+        Console.WriteLine($"Nome/Artista: {nome}/{artista}");
+    }
 }

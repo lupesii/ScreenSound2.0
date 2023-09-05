@@ -8,19 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\lucas\\.nuget\\packages\\": {}
+    "C:\\Users\\lucas\\.nuget\\packages\\": {},
+    "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\cursos-projetos\\ScreenSound2.0\\ScreenSound2.0\\ScreenSound2.0.csproj",
+      "projectUniqueName": "C:\\Users\\lucas\\Documents\\cursos-projetos\\ScreenSound2.0\\ScreenSound2.0\\ScreenSound2.0.csproj",
       "projectName": "ScreenSound2.0",
-      "projectPath": "D:\\cursos-projetos\\ScreenSound2.0\\ScreenSound2.0\\ScreenSound2.0.csproj",
+      "projectPath": "C:\\Users\\lucas\\Documents\\cursos-projetos\\ScreenSound2.0\\ScreenSound2.0\\ScreenSound2.0.csproj",
       "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-      "outputPath": "D:\\cursos-projetos\\ScreenSound2.0\\ScreenSound2.0\\obj\\",
+      "outputPath": "C:\\Users\\lucas\\Documents\\cursos-projetos\\ScreenSound2.0\\ScreenSound2.0\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

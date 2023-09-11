@@ -1,15 +1,15 @@
 ﻿class Musica
 {
-    public string artista;
-    public string nome;
-    public int duracao;
+    public string Artista {  get; set; }
+    public string Nome {  get; set; }
+    public int Duracao {  get; set; }
     public bool Disponivel { get; set; }
 
     public void ExibirFichaTecnica()
     {
-        Console.WriteLine($"Nome: {nome}");
-        Console.WriteLine($"Artista: {artista}");
-        Console.WriteLine($"Duração: {duracao}");
+        Console.WriteLine($"Nome: {Nome}");
+        Console.WriteLine($"Artista: {Artista}");
+        Console.WriteLine($"Duração: {Duracao}");
         if(Disponivel)
         {
             Console.WriteLine("Disponivel no plano");
@@ -22,6 +22,6 @@
 
     public void ExibirNomeArtista()
     {
-        Console.WriteLine($"Nome/Artista: {nome}/{artista}");
+        Console.WriteLine($"Nome/Artista: {Nome}/{Artista}");
     }
 }

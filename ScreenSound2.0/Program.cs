@@ -12,3 +12,5 @@ musica2.Disponivel = false;
 
 musica1.ExibirFichaTecnica();
 musica2.ExibirFichaTecnica();
+
+Console.WriteLine(musica1.Descricao);

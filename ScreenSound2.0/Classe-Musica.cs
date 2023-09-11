@@ -4,13 +4,7 @@
     public string Nome {  get; set; }
     public int Duracao {  get; set; }
     public bool Disponivel { get; set; }
-    public string Descricao 
-    {
-        get
-        {
-            return $"A música {Nome} foi feita pela banda {Artista}";
-        }
-    }
+    public string Descricao => $"A música {Nome} foi feita pela banda {Artista}";
 
     public void ExibirFichaTecnica()
     {

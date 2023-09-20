@@ -1,8 +1,6 @@
 ﻿class Album
 {
     private List<Musica> Musicas = new List<Musica>();
-
-    private List<Genero> AlbumGenero = new List<Genero>();
     public string Nome { get; set; }
     public int DuracaoTotal => Musicas.Sum(m => m.Duracao);
 
@@ -11,28 +9,11 @@
         Musicas.Add(musica);
     }
 
-    public void AdicionarGenero(Genero album)
-    {
-        AlbumGenero.Add(album);
-    }
-
-
     public void ExibirMusicas()
     {
         Console.WriteLine($"Lista de músicas do álbum {Nome}");
 
-        foreach (Genero GeneroAlbum in AlbumGenero)
-        
-            if (GeneroAlbum.Nome != null)
-            {
-                Console.WriteLine($"Gênero do Album: {GeneroAlbum.Nome}\n");
-            }
-            else
-            {
-                Console.WriteLine("Não foi descrito o nome deste gênero. Mas, pode existir uma descrição.\n");
-            }
-
-            foreach (var musica in Musicas)
+        foreach (var musica in Musicas)
         {
             Console.WriteLine($"Música: {musica.Nome}");
             Console.WriteLine($"Artista: {musica.Artista}");

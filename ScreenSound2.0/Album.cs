@@ -25,7 +25,7 @@
         
             if (GeneroAlbum.Nome != null)
             {
-                Console.WriteLine($"Gênero do Album: {GeneroAlbum.Nome}\n");
+                Console.WriteLine($"Gêneros do Album: {GeneroAlbum.Nome}");
             }
             else
             {
@@ -34,7 +34,7 @@
 
             foreach (var musica in Musicas)
         {
-            Console.WriteLine($"Música: {musica.Nome}");
+            Console.WriteLine($"\nMúsica: {musica.Nome}");
             Console.WriteLine($"Artista: {musica.Artista}");
             Console.WriteLine($"Duração: {musica.Duracao}");
             Console.WriteLine($"Disponivel: {musica.Disponivel}\n");

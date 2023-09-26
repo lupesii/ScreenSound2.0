@@ -1,13 +1,15 @@
 ﻿class Musica
 {
-    public Musica(Banda banda) 
+    public Musica(Banda artista, String nome) 
     {
-        Artista = banda;
+        Artista = artista;
+
+        Nome = nome;
     }
 
 
     public Banda Artista {  get; }
-    public string Nome {  get; set; }
+    public string Nome {  get; }
     public int Duracao {  get; set; }
     public bool Disponivel { get; set; }
     public string Descricao => $"A música {Nome} foi feita pela banda {Artista}";
